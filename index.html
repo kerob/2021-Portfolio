@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi, I'm Kyle and I make websites</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <!-- <img src="img/devjane.png" alt="headshot jane"> -->
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <div class="intro__text">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Kyle Robles</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Freelance Web Developer</p>
+        </div>
+        <!-- <img src="img/dev-jane-01.jpg" alt="Project 1" class="intro__img"> -->
+        <a href="#contact" class="btn intro__btn">Contact Me</a>
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">My Tech Stack</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Languages</h3>
+                
+                    <P><i class="fab fa-html5"></i>HTML</P>
+                    <p><i class="fab fa-css3-alt"></i>CSS</p>
+                    <p><i class="fab fa-js-square"></i>Javascript</p>
+                    
+                
+            </div> <!--/ service-->
+
+            <div class="service">
+                <h3>Frameworks/Libraries</h3>
+                <p><i class="fab fa-react"></i>React</p>
+                <p><i class="fab fa-bootstrap"></i>Bootstrap</p>
+                <p><i class="fab fa-node-js"></i>Node.js</p>
+            </div> <!--/ service-->
+
+            <div class="service">
+                <h3>Design/Other Tools</h3>
+                <p><i class="fas fa-laptop-code"></i>Visual Studio Code</p>
+                <p><i class="far fa-image"></i>Photoshop</p>
+                <p><i class="fab fa-figma"></i>Figma</p>
+            </div> <!--/ service-->
+        </div> <!--/ services-->
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about" >Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Web Developer in the Bay Area</p>
+        <div class="about-me__body">
+            <p>My name is Kyle and I design and build responsive websites. I currently reside in the San Francisco Bay Area. I have an emphasis on <strong>Front End Design</strong> and quality responsive websites. I am always looking to learn what the latest trends are on the visual web.</p>
+            <p>My current projects are focused on using <strong>React</strong> and <strong>Javascript</strong> among other web libraries. I am always looking forward to talk about an opportunity.</p>
+        </div>
+        <!-- <img > -->
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Work</h2>
+        <p class="section__subtitle"></p>
+
+        <div class="portfolio">
+
+            <!-- Portfolio Item 01-->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 02-->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 03-->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 04-->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 05-->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 06-->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
+            </a>
+            
+            <!-- Portfolio Item 07-->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 08-->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-me" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <form target="_blank" action="https://formsubmit.co/el/zowere" method="POST" class="contact__form">
+            <p class="contact__form-item">
+                <label>Full Name</label>
+                <input type="text" name="name" placeholder="Your Name Here" required>
+            </p>
+            <p class="contact__form-item">
+                <label>Email Address</label>
+                <input type="email" name="email" placeholder="example@email.com" required>
+            </p>
+            <p class="contact__form-item full">
+                <label>Your Message</label>
+                <textarea name="message" id="message" placeholder="Your Message Here" rows="10" required></textarea>
+            </p>
+            <p class="contact__form-item full">
+                <button type="submit">Submit</button>
+            </p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="" class="footer-link"></a>
+        <h3 class="footer__title">Kyle Robles @ 2021</h3>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://github.com/kerob" class="social-list__link" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a></li>
+            <!-- <li class="social-list__item"><a href="" class="social-list__link">
+                <i class="fab fa-twitter"></i>
+            </a></li> -->
+            <li class="social-list__item"><a href="https://codepen.io/kerob/" class="social-list__link" target="_blank"><i class="fab fa-codepen"></i>
+            </a>
+            </li>
+        </ul>
+    </footer>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
